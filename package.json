@@ -1,0 +1,33 @@
+{
+  "name": "yougotmail",
+  "version": "1.0.0",
+  "description": "A temporary mail web client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/win20-official/YouGotMail.git"
+  },
+  "keywords": [
+    "temp",
+    "temporary",
+    "temporary-mail",
+    "mail.tm",
+    "mail.tm-api",
+    "api"
+  ],
+  "dependencies": {
+    "express": "^4.18.2",
+    "mail.tm-api": "^1.0.0",
+    "node-fetch": "^3.2.10",
+    "serve-favicon": "^2.5.0"
+  },
+  "author": "Windows 20",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/win20-official/YouGotMail/issues"
+  },
+  "homepage": "https://github.com/win20-official/YouGotMail#readme"
+}
