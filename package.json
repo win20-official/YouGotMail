@@ -4,6 +4,8 @@
   "description": "A temporary mail web client.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon .",
+    "starthealth": "nodemon health.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
