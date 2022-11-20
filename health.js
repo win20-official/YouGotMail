@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 
 app.get("/health", async function(req, res) {
   const response = await fetch("http://localhost:8080")
-  res.send(`<title>Health check website</title> <style> body{ font-family: sans-serif; background-color: black; color: white; } </style> <h1>Response code for the main server</h1> <p>The response code is ${response.status}</p>`)
+  res.send(`<!DOCTYPE html> <title>Health check website</title> <style> body{ font-family: sans-serif; background-color: black; color: white; } </style> <h1>Response code for the main server</h1> <p>The response code is ${response.status}</p>`)
 })
 
 app.listen(port, () => {
