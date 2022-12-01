@@ -5,6 +5,10 @@ const mail = require("mail.tm-api")
 const app = express()
 const port = 8080
 
+mail.setConfig({
+  disableListening: true
+})
+
 app.use(favicon(path.join(__dirname, "public", "favicon.ico")))
 
 app.get("/", async function (req, res) {
